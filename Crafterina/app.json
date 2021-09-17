@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Crafterina",
+    "slug": "Crafterina",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "Crafterina"
+}
