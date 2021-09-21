@@ -11,7 +11,8 @@ export const COLORS ={
 
 
 export const FONTS ={
-    largeTitle: { fontFamily: "Redressed", fontSize: 60, lineHeight: 65 }
+    largeTitle: { fontFamily: "Redressed", fontSize: 80, lineHeight: 65 },
+    buttonTextTitle:{fontFamily:"Poppins",fontSize:20,lineHeight:40}
 }
 
 const appTheme = {COLORS,FONTS}
