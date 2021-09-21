@@ -5,7 +5,7 @@ import {FONTS,icons,images} from '../constants'
 
 
 
-const InitialScreen = () => {
+const WelcomeScreen = () => {
   return (
     <View >
       {/* <Text style={styles.title}>Crafterina</Text> */}
@@ -40,4 +40,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default InitialScreen;
+export default WelcomeScreen;
