@@ -5,7 +5,7 @@ import {StyleSheet, Text, View} from 'react-native';
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from '@react-navigation/native';
 
-import {Home,InitialScreen} from './screens';
+import {Home,WelcomeScreen} from './screens'; 
 
 const Stack = createStackNavigator();
 
@@ -16,9 +16,9 @@ export default function App() {
                screenOptions={{
                 headerShown: false
             }}
-            initialRouteName={'InitialScreen'}
+            initialRouteName={'Welcome'}
             >
-                <Stack.Screen name="InitialScreen" component={InitialScreen} />
+                <Stack.Screen name="Welcome" component={WelcomeScreen} />
                 <Stack.Screen name="Home" component={Home} />
             </Stack.Navigator>
         </NavigationContainer>

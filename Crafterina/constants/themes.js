@@ -8,6 +8,8 @@ export const COLORS ={
     
 }
 
+
+
 export const FONTS ={
     largeTitle: { fontFamily: "Redressed", fontSize: 60, lineHeight: 65 }
 }

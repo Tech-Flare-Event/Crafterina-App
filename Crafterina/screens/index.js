@@ -1,12 +1,12 @@
 import Home from './Home';
-import InitialScreen from './InitialScree';
+import WelcomeScreen from './WelcomeScreen'
 import SignIn from './SignIn';
 import Landing from './Landing';
 import Signup from './Signup';
 
 export {
     Home,
-    InitialScreen,
+    WelcomeScreen,
     SignIn,
     Landing,
     Signup

@@ -11,13 +11,13 @@ import java.util.List;
 public class GenUser extends User{
 
 
-    @Column(name = "fname",nullable = false)
+    @Column(name = "fname")
     private String fname;
 
-    @Column(name = "lname",nullable = false)
+    @Column(name = "lname")
     private String lname;
 
-    @Column(name = "telNo",nullable = false,length = 10)
+    @Column(name = "telNo",length = 10)
     private String telNo;
 
     @Column(name = "imageUrl")
