@@ -10,7 +10,9 @@ import {
 
 import { COLORS, FONTS, icons, images } from "../constants";
 
-const WelcomeScreen = ({ navigation }) => {
+const WelcomeScreen = ({navigation}) => {
+
+  
   const [colors, setColors] = useState(COLORS.secondary);
   const [signupColors, setSignupColors] = useState(COLORS.secondary);
 
@@ -59,6 +61,8 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#fff",
     alignItems: "center",
+    justifyContent:"center",
+
   },
 
   logo: {
