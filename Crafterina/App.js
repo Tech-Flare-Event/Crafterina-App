@@ -18,7 +18,7 @@ export default function App() {
             }}
             initialRouteName={'Welcome'}
             >
-                <Stack.Screen name="Welcome" component={WelcomeScreen} />
+                <Stack.Screen name="Welcome" component={WelcomeScreen}  />
                 <Stack.Screen name="Home" component={Home} />
                 <Stack.Screen name="SignIn" component={SignIn}/>
                 <Stack.Screen name="SignUp" component={Signup} />
